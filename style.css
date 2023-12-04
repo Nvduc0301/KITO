@@ -267,17 +267,21 @@ section {
   left: 46%;
   background-color: #fff;
   border-radius: 50%;
-  padding: 1em;
+  /* padding: 5px 23px 4px 33px; */
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--primary-color);
-  font-size: 1em;
   font-weight: 400;
-  width: 3em;
-  height: 3em;
   white-space: nowrap;
-  line-height: 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section-about .intro-video .intro-video-control i {
+  font-size: 42px;
+  line-height: 81px;
+  padding: 5px 23px 4px 33px;
 }
 
 .section-about .intro-video .intro-video-iframe {
