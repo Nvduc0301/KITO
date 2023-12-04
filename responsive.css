@@ -1,0 +1,311 @@
+@media screen and (max-width: 1024px) {
+  .header-top,
+  .header-nav-main .header-nav-list,
+  .header-nav-main .extension {
+    display: none;
+  }
+
+  /* .header-nav-main .header-nav-exit, */
+  .header-nav-main .header-nav-menu {
+    display: flex;
+    font-size: 24px;
+    line-height: 55px;
+  }
+
+  .header-nav {
+    height: 75px;
+  }
+
+  .change-menu {
+    background-color: rgba(105, 102, 102, 0.8);
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+  }
+
+  .header-nav-main .logo {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .active {
+    display: block !important;
+  }
+
+  .header-nav-main .header-nav-mobile {
+    position: absolute;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    min-height: 250px;
+    background-color: rgba(105, 102, 102, 0.8);
+    color: #fff;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 3s;
+
+    /* animation: slideDown 0.8s ease-in-out; */
+    display: none;
+  }
+
+  .header-nav-main .header-mobile-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px;
+    margin-top: 20px; */
+  }
+
+  .header-nav-main .header-mobile-list .nav-mobile-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-nav-main .header-mobile-list .header-mobile-item {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .header-nav-main .header-mobile-item a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  /* section-about */
+
+  .section-about {
+    padding: 60px 0 76px;
+  }
+
+  .section-about .container {
+    padding: 0;
+  }
+
+  .section-about .title {
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .section-about .paginate {
+    justify-content: center;
+    margin: 10px 0 50px;
+  }
+
+  .section-about .intro {
+    display: grid;
+    grid-template-columns: none;
+
+    grid-template-rows: 1fr 1fr;
+    /* flex-direction: column; */
+  }
+
+  .section-about .intro-desc {
+    width: 100%;
+    padding: 60px 61px 60px 62px;
+    order: 2;
+    margin-top: -10px;
+    align-items: center;
+  }
+
+  .section-about .intro-video {
+    width: 100%;
+    order: 1;
+  }
+
+  .section-about .intro-desc .intro-title {
+    display: none;
+  }
+
+  .section-about .intro-desc .intro-mobile-title {
+    display: flex;
+  }
+
+  .section-about .intro-desc .intro-content {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 15px 0 30px;
+  }
+
+  .section-about .intro-desc .intro-contact {
+    padding: 13px 30px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    background-color: #e76088;
+  }
+
+  /* section-proud */
+  .section-proud .proud-title {
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .section-proud .proud-list {
+    flex-direction: column;
+    margin-top: 0;
+    gap: 20px;
+  }
+
+  .section-proud .proud-list .proud-item {
+    padding: 30px;
+  }
+
+  .section-proud .proud-item .proud-quantity {
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .section-proud .proud-item .proud-category {
+    margin: 15px 0 10px;
+  }
+
+  .section-proud .proud-advertise {
+    gap: 14px;
+  }
+
+  .section-proud .proud-advertise .proud-teddybear,
+  .section-proud .proud-advertise .proud-baby {
+    width: 50%;
+  }
+
+  .section-proud .proud-advertise .proud-love {
+    display: none;
+  }
+
+  .section-proud .proud-mobilelove {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(236, 128, 160, 0.1);
+    padding: 30px 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .section-proud .proud-mobilelove .proud-mobilelove-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1a1114;
+  }
+  .section-proud .proud-mobilelove .proud-mobilelove-para {
+    text-align: center;
+    margin: 20px 0 30px;
+  }
+
+  .section-proud .proud-mobilelove .proud-mobilelove-contact {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin-top: 14px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* section-team */
+
+  .section-team {
+    padding: 60px 0;
+  }
+
+  .section-team .team-list {
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0 0 0;
+  }
+
+  .section-team .team-policy {
+    display: none;
+  }
+  /* footer */
+  .footer-sub {
+    flex-direction: column;
+  }
+
+  .footer-sub .footer-sub-form {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .footer-sub .footer-sub-form .footer-sub-para {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-nav .footer-nav-item {
+    /* padding: 0px 15px; */
+    width: 100%;
+  }
+
+  .footer-nav .footer-nav-item .footer-nav-para {
+    margin-top: 20px;
+  }
+
+  .footer-nav .footer-nav-para .footer-nav-contact {
+    gap: 15px;
+  }
+
+  .footer-nav .footer-nav-para .footer-nav-contact:first-child {
+    max-width: 50%;
+  }
+
+  .footer-nav .footer-nav-para .footer-nav-socialnetwork {
+    gap: 20px;
+  }
+
+  .footer-sub {
+    margin-bottom: 40px;
+  }
+
+  .footer-sub .footer-sub-forminput .footer-sub-submit {
+    padding: 13px 20px 15px 20px;
+  }
+
+  /* .footer-sub .footer-sub-form .footer-sub-input {
+    padding: 12px 0 12px 30px;
+  } */
+}
+
+@media screen and (max-width: 412px) {
+  .footer-sub .footer-sub-form .footer-sub-input {
+    max-width: 170px;
+  }
+}

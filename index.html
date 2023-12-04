@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KITO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="main.js" type="text/javascript"></script>
+
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.2.1-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="container header-top-main">
+          <div class="title">KITO - Every day low price</div>
+          <div class="titlesale">
+            Free Delivery on orders over £120. Don’t miss discount.
+          </div>
+          <div class="language">
+            <div class="language-item">
+              <span class="">ENG</span>
+              <div class="language-icon">
+                <img src="assets/img/header-movedown.png" alt="" />
+              </div>
+            </div>
+            <div class="language-line"></div>
+            <div class="language-item">
+              <span class="">USD</span>
+              <div class="language-icon">
+                <img src="assets/img/header-movedown.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-nav">
+        <div class="container header-nav-main">
+          <ul class="header-nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li class="nav-pages">
+              <a href="">Pages</a>
+              <div class="pages-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+                <!-- <img src="assets/img/header-movedown.png" alt="" /> -->
+              </div>
+            </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <h1 class="logo">kito</h1>
+          <div class="extension">
+            <div class="extension-icon">
+              <img src="assets/img/header-search.png" alt="" />
+            </div>
+            <div class="extension-icon">
+              <img src="assets/img/header-bag.png" alt="" />
+              <div class="extension-number">0</div>
+            </div>
+            <div class="extension-icon">
+              <img src="assets/img/header-tym.png" alt="" />
+              <div class="extension-number">0</div>
+            </div>
+          </div>
+          <div onclick="toggleMenu()" class="header-nav-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <!-- <div onclick="toggleMenu()" class="header-nav-exit">
+            <i class="fa-solid fa-xmark"></i>
+          </div> -->
+          <div class="header-nav-mobile">
+            <ul class="header-mobile-list">
+              <li class="header-mobile-item"><a href="">Home</a></li>
+              <li class="header-mobile-item"><a href="">Shop</a></li>
+              <li class="header-mobile-item nav-mobile-pages">
+                <a href="">Pages</a>
+                <div class="pages-mobile-icon">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </div>
+              </li>
+              <li class="header-mobile-item" style="list-style-type: none">
+                <a href="">Contact</a>
+              </li>
+            </ul>
+            <!-- <div class="header-mobile-extension">
+              <div class="header-mobile-icon">
+                <img src="assets/img/header-search.png" alt="" />
+              </div>
+              <div class="header-mobile-icon">
+                <img src="assets/img/header-bag.png" alt="" />
+                <div class="header-mobile-number">0</div>
+              </div>
+              <div class="header-mobile-icon">
+                <img src="assets/img/header-tym.png" alt="" />
+                <div class="header-mobile-number">0</div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-about">
+      <div class="container">
+        <h1 class="title">About Us</h1>
+        <div class="paginate">
+          <span class="pagi-home">Home</span>
+          <div class="pagi-line"></div>
+          <span class="pagi-about">About</span>
+        </div>
+        <div class="intro">
+          <div class="intro-desc">
+            <a href="" class="intro-title">ABOUT US</a>
+            <a href="" class="intro-mobile-title">SPRCICAL PRICE</a>
+            <h1 class="intro-content">
+              Bring Exciting Moments Of Fun While Playing & Learning For
+              Children.
+            </h1>
+            <a href="" class="intro-contact">Contact us</a>
+          </div>
+          <div class="intro-video">
+            <iframe
+              class="intro-video-iframe"
+              src=""
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+
+            <div class="intro-video-img" onclick="aboutVideo()">
+              <img src="assets/img/about_img-bird.png" alt="" />
+
+              <div class="intro-video-control">
+                <i class="fas fa-play icon-play"></i>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="intro-video">
+            <img src="assets/img/about_img-bird.png" alt="" />
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section-proud">
+      <div class="container">
+        <h1 class="proud-title">What We Are Proud Of</h1>
+        <div class="proud-list">
+          <div class="proud-item">
+            <span class="proud-quantity">20+</span>
+            <span class="proud-category">Total top services</span>
+            <div class="proud-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+          </div>
+          <div class="proud-item">
+            <span class="proud-quantity">15+</span>
+            <span class="proud-category">Countries</span>
+            <div class="proud-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+          </div>
+          <div class="proud-item">
+            <span class="proud-quantity">98%</span>
+            <span class="proud-category">Positive Feedback</span>
+            <div class="proud-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+          </div>
+          <div class="proud-item">
+            <span class="proud-quantity">2,558</span>
+            <span class="proud-category">Usual users</span>
+            <div class="proud-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+
+        <div class="proud-advertise">
+          <div class="proud-teddybear fill-img">
+            <img src="assets/img/proud_img-teddybear.png" alt="" />
+          </div>
+          <div class="proud-baby fill-img">
+            <img src="assets/img/proud_img-baby.png" alt="" />
+          </div>
+          <div class="proud-love fill-img">
+            <h1 class="proud-love-title">Big love for our lovely kids.</h1>
+            <div class="proud-love-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis
+              nostrud exercitation.
+            </div>
+            <a href="" class="proud-love-contact">Contact us</a>
+          </div>
+        </div>
+        <div class="proud-mobilelove fill-img">
+          <h1 class="proud-mobilelove-title">Big love for our lovely kids.</h1>
+          <div class="proud-mobilelove-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis
+            nostrud exercitation.
+          </div>
+          <a href="" class="proud-mobilelove-contact">Contact us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-team">
+      <div class="container">
+        <h1 class="team-title">Our Team</h1>
+        <div class="team-list">
+          <div class="team-item">
+            <div class="team-item-user">
+              <img src="assets/img/team-img-user1.png" alt="" />
+            </div>
+            <h2 class="team-item-name">Name 01</h2>
+            <span class="team-item-position">CEO & Founder</span>
+            <div class="team-item-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+            <div class="team-listicon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="team-item">
+            <div class="team-item-user">
+              <img src="assets/img/team-img-user2.png" alt="" />
+            </div>
+            <h2 class="team-item-name">Name 01</h2>
+            <span class="team-item-position">Personnel</span>
+            <div class="team-item-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+            <div class="team-listicon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="team-item">
+            <div class="team-item-user">
+              <img src="assets/img/team-img-user3.png" alt="" />
+            </div>
+            <h2 class="team-item-name">Name 01</h2>
+            <span class="team-item-position">Personnel</span>
+            <div class="team-item-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+            <div class="team-listicon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+          <div class="team-item">
+            <div class="team-item-user">
+              <img src="assets/img/team-img-user4.png" alt="" />
+            </div>
+            <h2 class="team-item-name">Name 01</h2>
+            <span class="team-item-position">Personnel</span>
+            <div class="team-item-para">
+              Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.
+            </div>
+            <div class="team-listicon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="team-policy">
+          <div class="team-policy-item">
+            <div class="team-policy-icon">
+              <img src="assets/img/team-icon-transport.png" alt="" />
+            </div>
+            <div class="team-policy-content">
+              <span class="team-policy-title">Free shipping </span>
+              <div class="team-policy-para">Free shipping orders from $150</div>
+            </div>
+          </div>
+          <div class="team-policy-item">
+            <div class="team-policy-icon">
+              <img src="assets/img/team-icon-gift.png" alt="" />
+            </div>
+            <div class="team-policy-content">
+              <span class="team-policy-title">Gift/Discount codes</span>
+              <div class="team-policy-para">Many discount codes every day</div>
+            </div>
+          </div>
+          <div class="team-policy-item">
+            <div class="team-policy-icon">
+              <img src="assets/img/team-icon-loop.png" alt="" />
+            </div>
+            <div class="team-policy-content">
+              <span class="team-policy-title">Money return</span>
+              <div class="team-policy-para">Return it within 30 days</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-sub">
+          <h1 class="footer-sub-logo">kito</h1>
+          <div class="footer-sub-form">
+            <div class="footer-sub-para">
+              Join our list and get 20% off your first purchase!
+            </div>
+
+            <div class="footer-sub-forminput">
+              <span class="footer-sub-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </span>
+              <input
+                class="footer-sub-input"
+                type="text"
+                placeholder=" Enter your email"
+              />
+              <span
+                href=""
+                onclick="submitFormEmail()"
+                class="footer-sub-submit"
+                >SUBSCRIBE</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="footer-nav-item">
+            <h2 class="footer-nav-title">Contact info</h2>
+            <div class="footer-nav-para">
+              <div class="footer-nav-contact">
+                <div class="footer-nav-icon">
+                  <img src="assets/img/footer-img-location.png" alt="" />
+                </div>
+                <span>560 King St W, Kingston, ON K7L 4V7, Canada</span>
+              </div>
+              <div class="footer-nav-contact">
+                <div class="footer-nav-icon">
+                  <img src="assets/img/footer-img-mail.png" alt="" />
+                </div>
+                <span>contactinfo@gmail.com</span>
+              </div>
+              <div class="footer-nav-contact">
+                <div class="footer-nav-icon">
+                  <img src="assets/img/footer-img-earphone.png" alt="" />
+                </div>
+                <span>+1 212 736 3100</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-nav-item">
+            <h2 class="footer-nav-title">Quick links</h2>
+            <div class="footer-nav-para">
+              <span>My account</span>
+              <span>Cart</span>
+              <span>Wishlist</span>
+              <span>Product Compare</span>
+            </div>
+          </div>
+          <div class="footer-nav-item">
+            <h2 class="footer-nav-title">Information</h2>
+            <div class="footer-nav-para">
+              <span>Privacy policy</span>
+              <span>Refund policy</span>
+              <span>Shipping & Return</span>
+              <span>Term & conditions</span>
+            </div>
+          </div>
+          <div class="footer-nav-item">
+            <h2 class="footer-nav-title">Follow us</h2>
+            <div class="footer-nav-para">
+              <div class="footer-nav-socialnetwork">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook</span>
+              </div>
+              <div class="footer-nav-socialnetwork">
+                <i class="fa-brands fa-twitter"></i>
+                <span>Twitter</span>
+              </div>
+              <div class="footer-nav-socialnetwork">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </div>
+              <div class="footer-nav-socialnetwork">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Youtube</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-signature">
+          Beae’stemplate © 2022. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
