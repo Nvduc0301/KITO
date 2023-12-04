@@ -155,9 +155,9 @@
   }
 
   .section-about .intro-video .intro-video-control i {
-    font-size: 20px;
-    line-height: 20px;
-    padding: 15px 17px;
+    font-size: 20px !important;
+    line-height: 20px !important;
+    padding: 15px 17px !important;
   }
 
   /* section-proud */
